@@ -1,9 +1,9 @@
 #!/bin/bash
-    --image-id=ami-0abcdef1234567890 
-    --count=1 
-    --instance-type=t3.micro 
-    --domain-name=salauddinworks.online
-    --hosted-zone_id=Z00524973MDJRJGQZS6DZ
+    image-id=ami-0abcdef1234567890 
+    count=1 
+    instance-type=t3.micro 
+    domain-name=salauddinworks.online
+    hosted-zone_id=Z00524973MDJRJGQZS6DZ
 
 
 
