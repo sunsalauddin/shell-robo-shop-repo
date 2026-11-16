@@ -19,7 +19,7 @@ do
         --output text
     )
 
-    echo "$instance instance-id: $instance_id"
+    echo "$instance instance ID: $instance_id"
 
     if [ "$instance" != "frontend" ]; then
 
