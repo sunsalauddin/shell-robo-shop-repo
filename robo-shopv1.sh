@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 ami_id=ami-0eec78ea4cbaaf5bd
