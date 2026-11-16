@@ -43,7 +43,8 @@ do
 
     # Updating Route 53
 
-    aws route53 change-resource-record-sets \
+	echo "Record: ${R3_record}"
+	aws route53 change-resource-record-sets \
         --hosted-zone-id "$hosted_zone_id" \
         --change-batch "{
             \"Comment\": \"Create a basic A record for $r53_record\",
@@ -63,5 +64,5 @@ do
                 }
             ]
         }"
-
+	echo "Updated R53 record for $instance"
 done
